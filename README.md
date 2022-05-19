@@ -11,6 +11,19 @@ Since the repository is IDE agnostic, there is an non IDE specific workflow desc
  * [GIT](https://git-for-windows.github.io/)
  * [Node.js 10.15.3 LTS](https://nodejs.org/dist/v10.15.3/node-v10.15.3-x64.msi)
 
+ ## Environment file
+  serviceUrl : 'Web api Base URL',
+  cityCoordinate:{
+    lat : //latitude of the city,
+    lon://longitude of the city,
+    maxDistance : //maximum distance of two locations within the city
+  },
+  testCoordinate:{ //For testing purpose
+    lat : //test latitude,
+    lon: //test longitude
+  },
+};
+
  ## Workflow
 ---
 
