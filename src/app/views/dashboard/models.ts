@@ -2,7 +2,7 @@ import { GoogleMap } from "@angular/google-maps";
 
 export interface FoodTruck {
     locationId?: number;
-    Applicant:string;
+    applicant:string;
     block?: string;
     lot?: string;
     address?: string;
