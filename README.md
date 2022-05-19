@@ -12,20 +12,22 @@ Since the repository is IDE agnostic, there is an non IDE specific workflow desc
  * [Node.js 10.15.3 LTS](https://nodejs.org/dist/v10.15.3/node-v10.15.3-x64.msi)
 
  ## Environment file
-  serviceUrl : 'Web api Base URL',
-  cityCoordinate:{
+   serviceUrl : 'Web api Base URL',
+   cityCoordinate:{
     lat : //latitude of the city,
-    lon://longitude of the city,
-    maxDistance : //maximum distance of two locations within the city
-  },
-  testCoordinate:{ //For testing purpose
-    lat : //test latitude,
+     lon://longitude of the city,
+     maxDistance : //maximum distance of two locations within the city
+   },
+   testCoordinate:{ //For testing purpose
+     lat : //test latitude,
     lon: //test longitude
   },
-};
+
+  ## google maps integration
+  replace the APIKEY section from google maps api key in index.html 
+   <script src="https://maps.googleapis.com/maps/api/js?key=APIKEY"></script>
 
  ## Workflow
----
 
 * Start Git Bash, this comes installed with GIT and is required to be able to use our tooling.
 
